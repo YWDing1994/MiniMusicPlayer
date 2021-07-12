@@ -1,0 +1,16 @@
+/* QPushButton */
+/* playBtn */
+QPushButton#playBtn
+{
+    border-image: url("./ui/resource/icon/pause.svg");
+}
+
+QPushButton#playBtn:hover
+{
+    border-image: url("./ui/resource/icon/play_hover.svg");
+}
+
+QPushButton#playBtn:pressed
+{
+    border-image: url("./ui/resource/icon/play.svg");
+}

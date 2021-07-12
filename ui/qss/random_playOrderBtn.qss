@@ -1,0 +1,16 @@
+/* QPushButton */
+/* playOrderBtn */
+QPushButton#playOrderBtn
+{
+    border-image: url("./ui/resource/icon/shuffle.svg");
+}
+
+QPushButton#playOrderBtn:hover
+{
+    border-image: url("./ui/resource/icon/loop_hover.svg");
+}
+
+QPushButton#playOrderBtn:pressed
+{
+    border-image: url("./ui/resource/icon/loop_pressed.svg");
+}

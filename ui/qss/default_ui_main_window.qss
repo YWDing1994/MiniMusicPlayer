@@ -1,0 +1,454 @@
+/* QMainWindow */
+/* MainWindow */
+QMainWindow#MainWindow
+{
+    border: None;
+    border-radius: 20px;
+    border-image: url("./ui/resource/image/bg_img_color_1.webp");
+    background-color: transparent;
+}
+
+/* QPushButton */
+/* closeBtn */
+QPushButton#closeBtn
+{
+    border: None;
+    border-radius: 14px;
+    background-color: rgb(255, 102, 102);
+}
+
+QPushButton#closeBtn:hover
+{
+    background-color: rgb(255, 154, 154);
+}
+
+QPushButton#closeBtn:pressed
+{
+    background-color: rgb(236, 86, 73);
+}
+
+/* minBtn */
+QPushButton#minBtn
+{
+    border: None;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 102);
+}
+
+QPushButton#minBtn:hover
+{
+    background-color: rgb(255, 255 ,154);
+}
+
+QPushButton#minBtn:pressed
+{
+    background-color: rgb(225, 214, 83);
+}
+
+/* maxBtn */
+QPushButton#maxBtn
+{
+    border: None;
+    border-radius: 14px;
+    background-color: rgb(154, 204, 102);
+}
+
+QPushButton#maxBtn:hover
+{
+    background-color: rgb(179, 217, 141);
+}
+
+QPushButton#maxBtn:pressed
+{
+    background-color: rgb(129, 154, 52);
+}
+
+/* searchBtn */
+QPushButton#searchBtn
+{
+    border-image: url("./ui/resource/icon/search.svg");
+}
+
+QPushButton#searchBtn:hover
+{
+    border-image: url("./ui/resource/icon/search_hover.svg");
+}
+
+QPushButton#searchBtn:pressed
+{
+    border-image: url("./ui/resource/icon/search_pressed.svg");
+}
+
+/* userLoginBtn */
+QPushButton#userLoginBtn
+{
+    border-image: url("./ui/resource/icon/user.svg");
+}
+
+QPushButton#userLoginBtn:hover
+{
+    border-image: url("./ui/resource/icon/user_hover.svg");
+}
+
+QPushButton#userLoginBtn:pressed
+{
+    border-image: url("./ui/resource/icon/user_pressed.svg");
+}
+
+/* userInfoBtn, userLikelistBtn, userPlaylistBtn, localMusicBtn */
+QPushButton#userInfoBtn, #userLikelistBtn, #userPlaylistBtn, #localMusicBtn
+{
+    border-radius: 10px;
+    background-color: rgb(255, 204, 204);
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton#userInfoBtn:hover, #userLikelistBtn:hover, #userPlaylistBtn:hover, #localMusicBtn:hover
+{
+    background-color: rgb(255, 153, 153);
+}
+
+QPushButton#userInfoBtn:pressed, #userLikelistBtn:pressed, #userPlaylistBtn:pressed, #localMusicBtn:pressed
+{
+    background-color: rgb(229,112,116);
+}
+
+/* playOrderBtn */
+QPushButton#playOrderBtn
+{
+    border-image: url("./ui/resource/icon/playlist.svg");
+}
+
+QPushButton#playOrderBtn:hover
+{
+    border-image: url("./ui/resource/icon/shuffle_hover.svg");
+}
+
+QPushButton#playOrderBtn:pressed
+{
+    border-image: url("./ui/resource/icon/shuffle_pressed.svg");
+}
+
+/* preSongBtn */
+QPushButton#preSongBtn
+{
+    border-image: url("./ui/resource/icon/pre.svg");
+}
+
+QPushButton#preSongBtn:hover
+{
+    border-image: url("./ui/resource/icon/pre_hover.svg");
+}
+
+QPushButton#preSongBtn:pressed
+{
+    border-image: url("./ui/resource/icon/pre_pressed.svg");
+}
+
+/* playBtn */
+QPushButton#playBtn
+{
+    border-image: url("./ui/resource/icon/play.svg");
+}
+
+QPushButton#playBtn:hover
+{
+    border-image: url("./ui/resource/icon/pause_hover.svg");
+}
+
+QPushButton#playBtn:pressed
+{
+    border-image: url("./ui/resource/icon/pause.svg");
+}
+
+/* nextSongBtn */
+QPushButton#nextSongBtn
+{
+    border-image: url("./ui/resource/icon/next.svg");
+}
+
+QPushButton#nextSongBtn:hover
+{
+    border-image: url("./ui/resource/icon/next_hover.svg");
+}
+
+QPushButton#nextSongBtn:pressed
+{
+    border-image: url("./ui/resource/icon/next_pressed.svg");
+}
+
+/* likeBtn */
+QPushButton#likeBtn
+{
+    border-image: url("./ui/resource/icon/like.svg");
+}
+
+QPushButton#likeBtn:hover
+{
+    border-image: url("./ui/resource/icon/like_hover.svg");
+}
+
+QPushButton#likeBtn:pressed
+{
+    border-image: url("./ui/resource/icon/like_checked.svg");
+}
+
+/* recSongBtn_1, 2, 3, 4, 5*/
+QPushButton#recSongBtn_1, #recSongBtn_2, #recSongBtn_3, #recSongBtn_4, #recSongBtn_5
+{
+    border-image: url("./ui/resource/icon/recsong.svg");
+}
+
+QPushButton#recSongBtn_1:hover, #recSongBtn_2:hover, #recSongBtn_3:hover, #recSongBtn_4:hover, #recSongBtn_5:hover
+{
+    border-image: url("./ui/resource/icon/recsong_hover.svg");
+}
+
+QPushButton#recSongBtn_1:pressed, #recSongBtn_2:pressed, #recSongBtn_3:pressed, #recSongBtn_4:pressed, #recSongBtn_5:pressed
+{
+    border-image: url("./ui/resource/icon/recsong_pressed.svg");
+}
+
+/* delLikeSongBtn, addToPlaylistBtn, createPlaylistBtn, delPlaylistBtn, addSongBtn, delSongBtn*/
+QPushButton#delLikeSongBtn, #addToPlaylistBtn, #createPlaylistBtn, #delPlaylistBtn, #addSongBtn, #delSongBtn
+{
+    border-radius: 10px;
+    background-color: rgb(245, 204, 164);
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton#delLikeSongBtn:hover, #addToPlaylistBtn:hover, #createPlaylistBtn:hover, #delPlaylistBtn:hover, #addSongBtn:hover, #delSongBtn:hover
+{
+    background-color: rgb(248, 209, 110);
+}
+
+QPushButton#delLikeSongBtn:pressed, #addToPlaylistBtn:pressed, #createPlaylistBtn:pressed, #delPlaylistBtn:pressed, #addSongBtn:pressed, #delSongBtn:pressed
+{
+    background-color: rgb(242, 126, 90);
+}
+
+/* QLabel */
+QLabel
+{
+    font-family: "SimSun";
+    font-size: 12px;
+}
+
+/* userNameLbl */
+QLabel#userNameLbl
+{
+    font-family: "SimHei";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 
+recSongLbl, curPlaylistLbl,
+playCurTimeLbl, playEndTimeLbl,
+userInfoLbl, songRankedLbl,
+userLikelistLbl,
+#playlistLbl, #playlistSongLbl,
+localMusicTableLbl, searchResListLbl
+*/
+QLabel#recSongLbl, #curPlaylistLbl,
+#playCurTimeLbl, #playEndTimeLbl,
+#userInfoLbl, #songRankedLbl,
+#userLikelistLbl,
+#playlistLbl, #playlistSongLbl,
+#localMusicTableLbl, #searchResListLbl
+{
+    font-family: "SimHei"; 
+    font-size: 14px;
+}
+
+/* curSongLbl, lyricLbl */
+QLabel#curSongLbl, #lyricLbl
+{
+    font-family: "SimHei"; 
+    font-size: 20px;
+}
+
+/* QLineEdit */
+/* searchLnedit */
+QLineEdit#searchLnedit 
+{
+    border: 1px solid rgba(153, 153, 153, 50%);
+    border-radius: 10px;
+    border-style: inset;
+    color: rgb(91,138,114);
+    selection-color: rgb(240,89,69);
+}
+
+QLineEdit#searchLnedit:hover
+{
+    border-color: rgb(255, 204, 204);
+}
+
+QLineEdit#searchLnedit:focus
+{
+    border-color: rgb(255, 153, 153);
+}
+
+/* QSlider */
+QSlider
+{
+    border: 1px solid transparent;
+    
+}
+
+QSlider::groove
+{
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
+    stop: 0 rgba(255, 255, 255, 50%), stop: 1 rgba(155, 155, 155, 100%));
+}
+
+
+QSlider::groove:horizontal
+{
+    border-radius: 10px;
+    height: 20px;
+}
+
+QSlider::sub-page
+{
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
+    stop: 0 rgba(183, 33, 255, 50%), stop: 1 rgba(33, 212, 253, 100%));
+}
+
+QSlider::add-pager
+{
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
+    stop: 0 rgba(155, 155, 155, 50%), stop: 1 rgba(255, 255, 255, 100%));
+}
+
+QSlider::handle
+{
+    border-radius: 5px;
+    background: rgb(206,31,106);
+}
+
+QSlider::handle:horizontal
+{
+    width: 15px;
+    margin: -5px;
+}
+
+/* QHeaderView */
+QHeaderView
+{
+    border: None;
+    margin: 0px;
+    padding: 0px;
+    font-family: "SimHei"; 
+    font-size: 16px;
+}
+
+QHeaderView::section, QTableCornerButton::section
+{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
+    stop: 0 rgba(212, 252, 121, 50%), stop: 1 rgba(177, 230, 150, 100%));
+    border: 1px solid rgb(153, 153, 153);
+}
+
+QHeaderView::section:hover, QTableCornerButton::section:hover{
+    background-color: rgb(255, 204, 204);
+}
+
+QHeaderView::section:pressed
+{
+    background-color: rgb(229,112,116);
+}
+
+QHeaderView::section:checked
+{
+    background-color: rgb(255, 153, 153);
+}
+
+/* QTableWidget */
+QTableWidget
+{
+    border-image: url("./ui/resource/image/bg_img_gradient_4.png");
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    gridline-color: rgb(153, 153, 153);
+    border: 1px inset rgb(153, 153, 153);
+    selection-color: rgb(91,138,114); /* 鼠标选中时前景色：文字颜色 */
+    selection-background-color: rgb(255, 204, 204);   /* 鼠标选中时背景色 */
+}
+
+/* QListWidget */
+QListWidget
+{
+    border-image: url("./ui/resource/image/bg_img_gradient_5.png");
+    border: None;
+    font-family: "SimHei";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QListWidget::item
+{
+    padding-top: 20px;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 65%);
+}
+
+QListWidget::item:hover 
+{
+    border-bottom: 1px solid qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+    stop: 0 rgba(183, 33, 255, 50%), stop: 1 rgba(33, 212, 253, 100%));
+}
+
+QListWidget::item:selected 
+{   
+    border-bottom: 1px solid qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+    stop: 0 rgba(183, 33, 255, 50%), stop: 1 rgba(33, 212, 253, 100%));
+    padding: 0px;
+    margin: 0px;
+    color: rgba(0, 0, 0, 100%);
+}
+
+QListWidget::item:selected:!active
+{
+    border-width: 0px;
+}
+
+/* userInfoListWidget */
+QListWidget#userInfoListWidget
+{
+    font-size: 16px;
+}
+
+QListWidget#userInfoListWidget::item 
+{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+/* QComboBox */
+QComboBox
+{
+    border: None;
+    border-radius: 5px;
+    border-image: url("./ui/resource/image/bg_img_gradient_2.png");
+}
+
+QComboBox QAbstractItemView 
+{
+    border: 1px solid rgb(153, 153, 153);
+    selection-color: rgb(0, 0, 0);
+    selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
+    stop: 0 rgba(242, 255, 183, 25%), stop: 1 rgba(253, 183, 255, 50%));
+}
+
+QComboBox QAbstractItemView::item 
+{
+    height: 20px;  /* 需要设置comboBox.setView(QListView())否则会使用默认的item样式 */
+}

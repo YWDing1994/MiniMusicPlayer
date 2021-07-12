@@ -1,0 +1,74 @@
+/* QDialog */
+/* loginDialog */
+QDialog#createPlaylistDialog
+{
+    border: None;
+    border-radius: 10px;
+    border-image: url("./ui/resource/image/bg_img_gradient_6.png");
+    background-color: transparent;
+}
+
+/* QPushButton */
+/* closeBtn */
+QPushButton#closeBtn
+{
+    border: None;
+    border-radius: 14px;
+    background-color: rgb(255, 102, 102);
+}
+
+QPushButton#closeBtn:hover
+{
+    background-color: rgb(255, 154, 154);
+}
+
+QPushButton#closeBtn:pressed
+{
+    background-color: rgb(236, 86, 73);
+}
+
+/* cancelBtn, okBtn */
+QPushButton#cancelBtn, #okBtn
+{
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(251, 172, 204, 80%), stop: 1 rgba(204, 242, 244, 100%));
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton#cancelBtn:hover, #okBtn:hover
+{
+    background-color: rgb(255, 153, 153);
+}
+
+QPushButton#cancelBtn:pressed, #okBtn:pressed
+{
+    background-color: rgb(229,112,116);
+}
+
+/* QLineEdit */
+QLineEdit
+{
+    border: 1px solid rgba(153, 153, 153, 50%);
+    border-radius: 10px;
+    border-style: inset;
+    color: rgb(91,138,114);
+    selection-color: rgb(240,89,69);
+}
+
+QLineEdit:hover
+{
+    border-color: rgb(255, 204, 204);
+}
+
+QLineEdit:focus
+{
+    border-color: rgb(255, 153, 153);
+}
+
+/* QLabel */
+QLabel
+{
+    border-image: url("./ui/resource/icon/user_playlist.svg");
+}

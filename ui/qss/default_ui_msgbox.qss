@@ -1,0 +1,31 @@
+/* QMessageBox */
+QMessageBox
+{
+    border-image: url("./ui/resource/image/bg_img_gradient_3.png");
+}
+
+/* QPushButton */
+QPushButton
+{
+    border: None;
+    border-radius: 5px;
+    background-color: rgb(255, 102, 102);
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+}
+
+QPushButton:hover
+{
+    background-color: rgb(255, 154, 154);
+}
+
+QPushButton:pressed
+{
+    background-color: rgb(236, 86, 73);
+}
+
+/* QLabel */
+QLabel
+{
+    font-size: 16px;
+}

@@ -1,0 +1,82 @@
+/* QDialog */
+/* registerDialog */
+QDialog#registerDialog
+{
+    border: None;
+    border-radius: 10px;
+    border-image: url("./ui/resource/image/bg_img_gradient_1.png");
+    background-color: transparent;
+}
+
+/* QPushButton */
+/* closeBtn */
+QPushButton#closeBtn
+{
+    border: None;
+    border-radius: 14px;
+    background-color: rgb(255, 102, 102);
+}
+
+QPushButton#closeBtn:hover
+{
+    background-color: rgb(255, 154, 154);
+}
+
+QPushButton#closeBtn:pressed
+{
+    background-color: rgb(236, 86, 73);
+}
+
+/* changePwdBtn, registerBtn */
+QPushButton#changePwdBtn, #registerBtn
+{
+    border-radius: 10px;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(251, 172, 204, 80%), stop: 1 rgba(204, 242, 244, 100%));
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton#changePwdBtn:hover, #registerBtn:hover
+{
+    background-color: rgb(255, 153, 153);
+}
+
+QPushButton#changePwdBtn:pressed, #registerBtn:pressed
+{
+    background-color: rgb(229,112,116);
+}
+
+/* QLineEdit */
+/* userNameLnedit, pwdLnedit, checkPwdLnedit */
+QLineEdit#userNameLnedit, #pwdLnedit, #checkPwdLnedit
+{
+    border: 1px solid rgba(153, 153, 153, 50%);
+    border-radius: 10px;
+    border-style: inset;
+    color: rgb(91,138,114);
+    selection-color: rgb(240,89,69);
+}
+
+QLineEdit#userNameLnedit:hover, #pwdLnedit:hover, #checkPwdLnedit:hover
+{
+    border-color: rgb(255, 204, 204);
+}
+
+QLineEdit#userNameLnedit:focus, #pwdLnedit:focus, #checkPwdLnedit:focus
+{
+    border-color: rgb(255, 153, 153);
+}
+
+/* QLabel */
+/* userNameLbl */
+QLabel#userNameLbl
+{
+    border-image: url("./ui/resource/icon/register_user.svg");
+}
+
+/* passwordLbl */
+QLabel#passwordLbl
+{
+    border-image: url("./ui/resource/icon/password.svg");
+}
